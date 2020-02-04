@@ -1,0 +1,23 @@
+<!-- 화면 1 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/some_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/some_id"
+>
+<TextView
+android:id="@+id/note_"
+android:layout_width="296dp"
+android:layout_height="88dp"
+android:layout_alignParentLeft="true"
+android:layout_marginLeft="32dp"
+android:layout_alignParentTop="true"
+android:layout_marginTop="227dp"
+android:text="@string/note_"
+android:textAppearance="@style/note_"
+android:gravity="center_horizontal|center_vertical"
+    />
+
+</RelativeLayout>
