@@ -11,10 +11,15 @@
         android:layout_above="@+id/bottomBar" />
 
     <com.roughike.bottombar.BottomBar
+        android:layout_margin="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_gravity="bottom"
+
         android:id="@+id/bottomBar"
+         app:labelVisibilityMode="unlabeled"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
         app:bb_tabXmlResource="@xml/menu_bottomnavigator" />
 
 </RelativeLayout>
