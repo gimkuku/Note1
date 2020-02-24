@@ -17,9 +17,10 @@
         android:layout_gravity="bottom"
 
         android:id="@+id/bottomBar"
-         app:labelVisibilityMode="unlabeled"
+        app:labelVisibilityMode="unlabeled"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:bb_tabXmlResource="@xml/menu_bottomnavigator" />
-
+        app:bb_tabXmlResource="@xml/menu_bottomnavigator"
+        app:itemIconTint="@color/bottom_section_color"
+        app:itemTextColor="@color/bottom_section_color"/>
 </RelativeLayout>
